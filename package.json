@@ -29,5 +29,10 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.88.11",
+        "@react-three/postprocessing": "^2.15.10",
+        "leva": "^0.9.35"
     }
 }
