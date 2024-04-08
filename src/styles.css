@@ -1,7 +1,59 @@
 html,
 body,
 #root {
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background: #000000;
+  font-family: lato;
+  color: white;
+}
+
+html,
+body,
+#root button {
+  outline: none;
+}
+
+:root {
+  --fs6: clamp(0.01725rem, 0rem + 0.2778vw, 1.725rem);
+  --fs8: clamp(0.0259375rem, 0rem + 0.4167vw, 2.59375rem);
+  --fs10: clamp(0.034625rem, 0rem + 0.5556vw, 3.4625rem);
+  --fs12: clamp(0.05208125rem, 0rem + 0.8333vw, 5.2083125rem);
+  --fs14: clamp(0.0607625rem, 0rem + 0.9722vw, 6.076375rem);
+  --fs16: clamp(0.0694375rem, 0rem + 1.1111vw, 6.9444375rem);
+  --fs18: clamp(0.07811875rem, 0rem + 1.25vw, 7.8125rem);
+  --fs20: clamp(0.0868rem, 0rem + 1.3889vw, 8.6805625rem);
+  --fs22: clamp(0.09548125rem, 0rem + 1.5278vw, 9.548625rem);
+  --fs24: clamp(0.1041625rem, 0rem + 1.6667vw, 10.4166875rem);
+  --fs26: clamp(0.11284375rem, 0rem + 1.8056vw, 11.28475rem);
+  --fs28: clamp(0.121525rem, 0rem + 1.9444vw, 12.1528125rem);
+  --fs30: clamp(0.13020625rem, 0rem + 2.0833vw, 13.020875rem);
+  --fs32: clamp(0.1388875rem, 0rem + 2.2222vw, 13.8889375rem);
+  --fs34: clamp(0.14756875rem, 0rem + 2.3611vw, 14.757rem);
+  --fs36: clamp(0.15625rem, 0rem + 2.5vw, 15.6250625rem);
+  --fs38: clamp(0.16493125rem, 0rem + 2.6389vw, 16.493125rem);
+  --fs40: clamp(0.1736125rem, 0rem + 2.7778vw, 17.3611875rem);
+  --fs42: clamp(0.18229375rem, 0rem + 2.9167vw, 18.22925rem);
+  --fs44: clamp(0.190975rem, 0rem + 3.0556vw, 19.0973125rem);
+  --fs46: clamp(0.19965625rem, 0rem + 3.1944vw, 19.965375rem);
+  --fs48: clamp(0.2083375rem, 0rem + 3.3333vw, 20.8334375rem);
+  --fs50: clamp(0.21701875rem, 0rem + 3.4722vw, 21.7015rem);
+  --fs52: clamp(0.2257rem, 0rem + 3.6111vw, 22.5695625rem);
+  --fs54: clamp(0.23438125rem, 0rem + 3.75vw, 23.437625rem);
+  --fs56: clamp(0.2430625rem, 0rem + 3.8889vw, 24.3056875rem);
+  --fs58: clamp(0.25174375rem, 0rem + 4.0278vw, 25.17375rem);
+  --fs60: clamp(0.260425rem, 0rem + 4.1667vw, 26.0418125rem);
+  --fs62: clamp(0.26910625rem, 0rem + 4.3056vw, 26.909875rem);
+  --fs64: clamp(0.2777875rem, 0rem + 4.4444vw, 27.7779375rem);
+  --fs66: clamp(0.28646875rem, 0rem + 4.5833vw, 28.646rem);
+  --fs68: clamp(0.29515rem, 0rem + 4.7222vw, 29.5140625rem);
+  --fs70: clamp(0.30383125rem, 0rem + 4.8611vw, 30.382125rem);
+  --fs72: clamp(0.3125125rem, 0rem + 5vw, 31.2501875rem);
+  --fs74: clamp(0.32119375rem, 0rem + 5.1389vw, 32.11825rem);
+  --fs76: clamp(0.329875rem, 0rem + 5.2778vw, 32.9863125rem);
+  --fs78: clamp(0.33855625rem, 0rem + 5.4167vw, 33.854375rem);
+  --fs80: clamp(0.3472375rem, 0rem + 5.5556vw, 34.7224375rem);
 }

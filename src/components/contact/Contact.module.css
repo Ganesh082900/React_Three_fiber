@@ -1,0 +1,224 @@
+.main {
+    width: 100%;
+    height: 86%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactBox {
+    width: 100%;
+    height: 94%;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactBoxLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.contactBoxLeft p {
+    width: 100%;
+    height: 8%;
+    font-size: var(--fs28);
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    word-spacing: 2px;
+}
+
+.contactBoxLeft form {
+    width: 100%;
+    height: 74%;
+}
+
+.eachItem {
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    animation: load 2s ease-in
+}
+
+@keyframes load {
+    0% {
+        display: none;
+        opacity: 0;
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.eachItem:nth-child(3) {
+    height: 30%;
+}
+
+.eachItem label {
+    width: 80%;
+    height: 30%;
+    font-size: var(--fs20);
+    font-weight: 600;
+}
+
+.eachItem input {
+    width: 80%;
+    height: 60%;
+    padding-left: 4px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: var(--fs16);
+}
+
+.eachItem textarea {
+    width: 80%;
+    height: 90%;
+    padding-left: 4px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: var(--fs16);
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.button {
+    width: 80%;
+    height: 12%;
+    margin-top: 6%;
+    font-size: var(--fs16);
+    font-weight: 600;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid aliceblue;
+    animation: loadButton 2s ease-in
+}
+
+@keyframes loadButton {
+    0% {
+        display: none;
+        opacity: 0;
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/* icons */
+
+.boxesIcons {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    width: 80%;
+    height: 12%;
+    margin-top: 1.2rem;
+    display: flex;
+    column-gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 8%;
+    height: 66%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: var(--fs28);
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #ffffff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon i {
+    margin: auto;
+}
+
+.icon:hover i {
+    animation: shake 0.25s;
+}
+
+.iconMail:hover {
+    background-color: #e27e75;
+    outline-color: #e1483b;
+}
+
+.iconLinkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.iconGithub:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+
+.contactBoxRight {
+    width: 50%;
+    height: 100%;
+}
+
+.contactFooter {
+    width: 98%;
+    height: 6%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.contactFooter P span {
+    font-size: var(--fs12);
+    opacity: 0.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
